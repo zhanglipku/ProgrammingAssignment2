@@ -13,6 +13,7 @@ makeVector <- function(x = matrix()) {
 }
 
 
+
 cachematrix <- function(x, ...) {
         inverse <- x$getinverse()
         if(!is.null(inverse)) {
